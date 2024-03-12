@@ -131,7 +131,12 @@ color: #fff;
     font-weight: 800;
 }
 
-
+.who_are_we_details h5 
+{
+    color: #3c76d2;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
 
 /* .For_stores_and_companies */
 
