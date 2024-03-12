@@ -1,0 +1,204 @@
+body
+{
+    margin: 0;
+    padding: 0;
+top: 0;
+width: 100%;
+overflow-x: hidden;
+      
+}
+
+/*  
+*
+{
+font-family: "GE ThameenBold"!important;
+font-weight: 800;
+} */
+
+/* navbar-section */
+
+.navbar-section 
+{
+    background-color: #274ab9;
+    padding: 0px 5% ;
+    color: #fff;
+}
+
+.logo img
+{
+    width: 60px;
+}
+
+.nav-link
+{
+    color: #fff !important;
+}
+
+
+/* main page */
+
+.main-page
+{
+background-image: url('../img/download.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+}
+
+
+.layout
+{
+ background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* slider  */
+
+.btn-prev
+{
+    position: relative;
+     top: 0 ;
+    right: 100%;
+ 
+}
+
+.btn-next
+{
+    position: relative ;
+    top: 10px!important;
+   right: -130px !important;
+}
+
+
+ .arrow-icon
+{
+    background-color: #274ab9 !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+    font-size: 1.2rem !important;
+ }
+
+ 
+.carousel-item img 
+{
+    border-radius: 30px;
+    height: 400px;
+}
+
+/* search products  */
+
+.search-products button
+{
+    color: #fff;
+    border: none;
+    background-color: #274ab9;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.product 
+{
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    padding:0 15px;
+}
+
+
+ 
+ swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  
+.picks
+{
+
+    margin: 0 10%;
+}
+ 
+
+
+.picks_title 
+{
+    color: #000;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+ 
+
+/* top_rate */
+
+
+.top_rate,.new_book
+{
+    margin: 0 10%;
+}
+
+.header_title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     position: relative;
+}
+
+ 
+
+.header_title hr 
+{
+    width: 70%;
+}
+
+.header_title a 
+{
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.top_rate_elements 
+{
+    display: flex;
+}
+
+ 
+
+.item img
+{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3c76d2;
+    border-radius: 50%;
+}
+ 
+/* footer */
+
+footer
+{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #797979;
+    padding: 2%;
+}
+
