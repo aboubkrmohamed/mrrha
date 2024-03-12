@@ -1,0 +1,172 @@
+body
+{
+    margin: 0;
+    padding: 0;
+top: 0;
+width: 100%;
+overflow-x: hidden;
+
+background-color: #274ab9;
+
+}
+
+ 
+
+/* navbar-section */
+
+.navbar-section 
+{
+    padding: 0px 5% ;
+    color: #fff;
+    background-color: transparent;
+}
+
+.logo img
+{
+    width: 60px;
+}
+
+.nav-link
+{
+    color: #fff !important;
+}
+
+
+/* main page */
+ 
+
+.main-page
+{
+background-image: url('../img/banner-img.9258042.png');
+background-repeat: no-repeat;
+background-size:cover ;
+
+/* background-position:20%; */
+}
+ 
+/* define_site */
+
+.define_site 
+{
+margin: 10% 20%  ;
+color: #fff;
+}
+
+.define_site img 
+{
+    width: 15%;
+}
+ 
+/* Services */
+  
+.Services 
+{
+    margin: 40% 20% 0 20%;
+     text-align:end;
+     color: #fff;
+}
+
+.Services h2
+{
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.options 
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0% 30% 0 10%;
+ }
+.options h4
+{
+    border: #fff 2px solid;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 250px;
+    color: #fff;
+}
+
+
+/* who_are_we  */
+
+.who_are_we 
+{
+    /* background-color: red; */
+    margin: 20% 15% 5% 15%;
+    color: #fff;
+}
+
+.who_are_we_details 
+{
+    text-align: center;
+}
+
+.who_are_we_details_title p 
+{
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+/* For_individual_makers */
+
+.For_individual_makers 
+{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.For_individual_makers p 
+{
+    text-align: start;
+    font-size: .8rem;
+}
+
+.For_individual_makers button 
+{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+
+/* .For_stores_and_companies */
+
+.For_stores_and_companies
+{
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    text-align: start;
+
+}
+
+.For_stores_and_companies span 
+{
+    font-size: .8rem;
+}
+
+.btn_For_stores_and_companies
+{
+    text-align: center;
+}
+
+.btn_For_stores_and_companies button 
+{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+/* footer */
+
+footer
+{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #797979;
+    padding: 2%;
+}
