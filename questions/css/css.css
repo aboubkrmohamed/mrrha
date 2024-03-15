@@ -8,6 +8,13 @@ overflow-x: hidden;
       
 }
 
+button
+{
+    background-color: transparent;
+    margin-left: 4px;
+    border: none;
+    outline: none;
+}
  
 /* navbar-section */
 
@@ -62,6 +69,12 @@ background-attachment: fixed;
      position: relative;
 }
 
+.header_title h4 
+{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
 
 .header_title hr 
 {
@@ -85,6 +98,23 @@ background-attachment: fixed;
 }
   
 
+.Buyer_questions 
+{
+    display: none;
+}
+
+
+#seller , #buyer 
+{
+font-size: 1.2rem;
+font-weight: 900;
+}
+
+.underline 
+{
+    border-bottom: 2px #3c76d2 solid ;
+    color: #3455c2;
+}
 
  
 /* footer */
