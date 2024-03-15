@@ -113,10 +113,24 @@ font-weight: 900;
 .underline 
 {
     border-bottom: 2px #3c76d2 solid ;
-    color: #3455c2;
+    color: #95adfa;
 }
 
- 
+ /* accordion-button */
+
+ .accordion-button 
+ {
+    font-size: 1.3rem;
+    font-weight: 900;
+ }
+
+ .accordion-body
+ {
+    color: #797979;
+    font-size: .9rem;
+    font-weight: 400;
+ }
+
 /* footer */
 
 footer
