@@ -1,0 +1,128 @@
+body
+{
+    margin: 0;
+    padding: 0;
+top: 0;
+width: 100%;
+overflow-x: hidden;
+      
+}
+
+ 
+/* navbar-section */
+
+.navbar-section 
+{
+    background-color: #274ab9;
+    padding: 0px 5% ;
+    color: #fff;
+}
+
+.logo img
+{
+    width: 60px;
+}
+
+.nav-link
+{
+    color: #fff !important;
+}
+
+
+/* main page */
+
+.main-page
+{
+background-image: url('../img/download.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+}
+
+
+.layout
+{
+ background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* top_rate */
+
+
+.universities
+{
+    margin: 0 15%
+}
+
+.header_title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     position: relative;
+}
+
+
+.header_title hr 
+{
+    width: 70%;
+}
+
+.header_title a 
+{
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #797979;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.header_title a>input
+{
+    outline: none; 
+    border: none;
+
+}
+  
+
+
+ 
+/* footer */
+
+footer
+{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #797979;
+    padding: 2%;
+}
+
+
+@media screen and (max-width:1200px) and (min-width:992px) 
+{
+    .universities
+{
+    margin: 0 14%
+}   
+}
+
+
+
+@media screen and (max-width:992px) and (min-width:768px) 
+{
+    .universities
+{
+    margin: 0 12%
+}   
+}
+
+
+@media screen and (max-width:768px) 
+{
+    .universities
+{
+    margin: 0 10%
+}   
+}
