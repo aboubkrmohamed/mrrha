@@ -1,0 +1,126 @@
+body
+{
+    margin: 0;
+    padding: 0;
+top: 0;
+width: 100%;
+overflow-x: hidden;
+      
+}
+
+
+
+.navbar-section 
+{
+    background-color: #274ab9;
+    padding: 0px 5% ;
+    color: #fff;
+}
+
+.logo img
+{
+    width: 60px;
+}
+
+.nav-link
+{
+    color: #fff !important;
+}
+
+
+/* main page */
+
+.main-page
+{
+background-image: url('../img/download.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+}
+
+
+.layout
+{
+ background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* Login  */
+
+.header_title 
+{
+
+    background-color: rgb(60,118,210);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-radius: 4px;
+    color: #fff;
+    padding:1% 5%;
+}
+
+.header_title h4
+{
+    font-family: "GE ThameenBold"!important;
+font-weight: 600;
+}
+
+
+.login
+{
+    margin: 3% 30%;
+    background-color: #fff;
+    box-shadow:7px 12px 20px #888888;
+    font-family: "GE ThameenBold"!important;
+    font-weight: 800;
+    border-radius: 7px;
+}
+
+.login form
+{
+    padding: 2%;
+
+}
+
+
+.submit_btn 
+{
+    text-align: end;
+}
+
+
+.signIn_link
+
+{
+    text-align: center;
+    font-family: "GE ThameenBold"!important;
+    font-weight: 800;
+    font-size: 1.2rem;
+
+}
+
+
+.signIn_link a 
+{
+    text-decoration: none;
+     padding: 10px;
+
+}
+
+.signIn_link a:hover 
+{
+    background-color: rgba(25, 118, 210,0.24) !important;
+}
+
+/* footer */
+
+footer
+{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #797979;
+    padding: 2%;
+}
+
